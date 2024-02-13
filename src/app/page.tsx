@@ -123,13 +123,13 @@ export default function Home() {
                   <Carousel className='w-full max-sm:w-72 max-sm:mt-20 max-md:w-96 max-md:mt-20 max-sm:ml-4 md:mt-20 '>
                     <CarouselContent>
                     <CarouselItem>
-                      <video loop autoPlay muted className='w-[24rem] rounded-lg border-2 '>
+                      <video loop autoPlay muted playsInline className='w-[24rem] rounded-lg border-2 '>
                         <source src={'video/video.mp4'}/>
                         Your browser does not support the video tag.
                       </video>
                       </CarouselItem>
                       <CarouselItem>
-                      <video loop autoPlay muted className='w-[24rem] rounded-lg border-2'>
+                      <video loop autoPlay muted playsInline className='w-[24rem] rounded-lg border-2'>
                         <source src={'video/video-shorts.mp4'}/>
                         Your browser does not support the video tag.
                       </video>
