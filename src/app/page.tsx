@@ -73,7 +73,7 @@ export default function Home() {
             
             
 
-                <div className='flex flex-row justify-center items-center 2xl:mt-0 gap-48 lg:flex-row max-sm:flex-col lg:mt-96 max-sm:gap-10 max-md:flex-col max-md:gap-10 max-sm:mt-96 md:flex-col md:gap-10 md:mt-80 min-[320px]:mt-96 xl:mt-96 '>
+                <div className='flex flex-row justify-center items-center 2xl:mt-0 gap-48 lg:flex-row max-sm:flex-col lg:mt-96 max-sm:gap-10 max-md:flex-col max-md:gap-10 max-sm:mt-80 md:flex-col md:gap-10 md:mt-80 min-[320px]:mt-80 xl:mt-96 '>
 
                     <div className='flex items-center justify-center'>
                       <Card className='w-[17rem] h-[20rem] flex flex-col items-center justify-around bg-black text-zinc-100 max-sm:w-[15rem] max-sm:h-[17]'>
@@ -123,13 +123,13 @@ export default function Home() {
                   <Carousel className='w-full max-sm:w-72 max-sm:mt-20 max-md:w-96 max-md:mt-20 max-sm:ml-4 md:mt-20 '>
                     <CarouselContent>
                     <CarouselItem>
-                      <video loop autoPlay muted className='w-[24rem] rounded-lg border-2 '>
+                      <video loop autoPlay muted playsInline className='w-[24rem] rounded-lg border-2 '>
                         <source src={'video/video.mp4'}/>
                         Your browser does not support the video tag.
                       </video>
                       </CarouselItem>
                       <CarouselItem>
-                      <video loop autoPlay muted className='w-[24rem] rounded-lg border-2'>
+                      <video loop autoPlay muted playsInline className='w-[24rem] rounded-lg border-2'>
                         <source src={'video/video-shorts.mp4'}/>
                         Your browser does not support the video tag.
                       </video>
