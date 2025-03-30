@@ -63,7 +63,7 @@ export default function Home() {
                       <Button variant="secondary" className='ml-10 mt-14 w-[20rem] h-[3rem] max-sm:ml-0'>Saiba Mais</Button>
                     </section>
                     <article>
-                      <Image src={photoBMW1} alt="" className='rounded-lg size-[35rem] mr-28 max-sm:hidden max-md:hidden md:hidden lg:block '/>
+                      <Image src="https://bebeimportadosmiami.com/wp-content/uploads/2018/03/Sof%C3%A1-Cama-para-Meninos-do-Cars-infantil-Disney-Pixar-Disney-Pixar-Cars-2.jpg" alt="" className='rounded-lg size-[35rem] mr-28 max-sm:hidden max-md:hidden md:hidden lg:block '/>
                     </article>
                   </main>
 
